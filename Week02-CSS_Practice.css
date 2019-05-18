@@ -1,0 +1,83 @@
+/* CSS Practice: Modify below incorrect style effects */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #F7E3D5;
+  color: #000000;
+}
+
+#welcome > h2.title {
+  font-size: 0.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+body > header h1 {
+  font-family: 'Nova Script', cursive;
+  display: inline-block;
+}
+
+body > header > img {
+  width: 50px;
+  height: 50px;
+}
+
+#top-nav {
+  background-color: #38B330;
+  text-alignment: center;
+  height: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#top_nav li {
+  display: inline-block;
+  padding: 2m;
+}
+
+#top-nav a {
+  color: #000000;
+}
+
+main {
+  display: flex;
+}
+
+.title {
+  background-color: #8A84B3;
+  padding: 0.2em;
+}
+
+#welcome {
+  flex: 0 3 auto;
+  right-margin: 1em;
+}
+
+#welcome blockquote {
+  color: #38B330;
+  font-family: serif;
+}
+
+#latest-photos {
+  flex: 0 1 auto;
+}
+
+.photo {
+  width: 150px;
+}
+
+body > footer {
+  text-align: center;
+  margin-top: 2em;
+}
+
+body > footer > p {
+  font-height: 0.8em;
+}
+
+.photo {
+  height: 150px;
+}
