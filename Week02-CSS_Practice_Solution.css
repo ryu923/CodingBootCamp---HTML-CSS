@@ -97,6 +97,7 @@ main {
 
 .photo {
     width: 150px;
+    height: 150px;
 }
 
 /* Solution: Delete duplicate style */
