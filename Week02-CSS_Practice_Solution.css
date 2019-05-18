@@ -1,0 +1,118 @@
+/* CSS Practice: Modify below incorrect style effects */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F7E3D5;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Solution: Delete unnecessary style */
+/* #welcome > h2.title {
+  font-size: 0.5em;
+}*/
+
+/* Solution: Add [> a] to correct direct children of element */
+/*body > header > img {
+    width: 50px;
+    height: 50px;
+}*/
+body > header > a > img {
+    width: 50px;
+    height: 50px;
+}
+
+body > header h1 {
+    font-family: 'Nova Script', cursive;
+    display: inline-block;
+}
+
+/* Solution: Modify correct name of element*/
+/*#top-nav {
+    background-color: #38B330;
+    text-alignment: center;
+    height: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}*/
+#top-nav {
+    background-color: #38B330;
+    text-align: center;
+    height: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Solution: Add effect on [ul] */
+ul {
+    list-style-type: none;
+}
+
+#top-nav a {
+    color: #000000;
+}
+
+/* Solution: Modify correct ID name and value of element */
+/*#top_nav li {
+  display: inline-block;
+  padding: 2m;
+}*/
+#top-nav li {
+    display: inline-block;
+    padding: 2em;
+}
+
+main {
+    display: flex;
+}
+
+/* Solution: Modify correct name of property */
+/*#welcome {
+    flex: 0 3 auto;
+    right-margin: 1em;
+}*/
+#welcome {
+    flex: 0 3 auto;
+    margin-right: 1em;
+}
+
+#welcome blockquote {
+    color: #38B330;
+    font-family: serif;
+}
+
+#latest-photos {
+    flex: 0 1 auto;
+}
+
+.title {
+    background-color: #8A84B3;
+    padding: 0.2em;
+}
+
+.photo {
+    width: 150px;
+}
+
+/* Solution: Delete duplicate style */
+/*.photo {
+  height: 150px;
+}*/
+
+body > footer {
+    text-align: center;
+    margin-top: 2em;
+}
+
+/* Solution: Modify correct name of property */
+/*body > footer > p {
+  font-height: 0.8em;
+}*/
+body > footer > p {
+    font-size: 0.8em;
+}
