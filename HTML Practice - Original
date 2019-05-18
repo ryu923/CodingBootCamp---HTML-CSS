@@ -1,0 +1,51 @@
+<!-- HTML Practice: Modify below incorrect codes  -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Toronto Ramen</title>
+        <h1>Toronto Ramen</h1>
+    </head>
+    <body>
+        
+        <header>
+        <a href="#"><img width="50" height="50" alt="a simple ramen logo" source="https://image.flaticon.com/icons/svg/76/76372.svg"/></a>
+        
+        <navbar>
+            <ul>
+            <a href="#"><li>Home</a></li>
+            <a href="#"><li>Restaurants</li></a>
+            <a herf="#"><li>Photos</li></a>
+            <a href="#"><li>Forum</li>
+            </ul>
+        </navbar>
+        </header>
+
+    </body>
+
+    <body>
+        <main>
+        <article>
+            <h2>Welcome<h2>
+            <p>This website is dedicated to ramen in Toronto. The ramen scene has grown quite a bit in the last few years, with many restaurant options located throughout the city.</p>
+            <p>No udon or pho allowed. Spaghetti? Not even close.</p>
+            <blockquote>The old man bit some shinachiku root and chewed it awhile. Then he took some noodles. Still chewing noodles, he took some more shinachiku. Then he sipped some soup. Three times. He sat up, sighed, picked up one slice of pork-as if making a major decision in life-and lightly tapped it on the side of the bowl.</blockqote>
+        </article>
+
+        <aside>
+            <p>Latest Photos</p>
+
+            <div>
+            <a href="https://www.yelp.ca/biz/hokkaido-ramen-santouka-toronto-2?osq=best+ramen"><img width="150" height="150" alt="Hokkaido Ramen Santouka" src="https://s3-media4.fl.yelpcdn.com/bphoto/7j3396oBjDRXCHsYpbwL6g/348s.jp"/></a>
+            <a href="https://www.yelp.ca/biz/ikkousha-ramen-toronto-2"><img width="150" height="15O" alt="Ikkousha Ramen" src="https://s3-media4.fl.yelpcdn.com/bphoto/Zn2KT_Sc6c7bMlhqsTI65g/348s.jpg"/></a>
+            <a href="https://www.yelp.ca/biz/sansotei-ramen-north-york"><img widht="150" heigth="150" alt="Sansotei Ramen" src="https://s3-media3.fl.yelpcdn.com/bphoto/R0s3r6yXbILmO4uqsMyB4w/348s.jpg"/></a>
+            <a href="https://www.yelp.ca/biz/konjiki-ramen-toronto"><img width="150" height="150" alt="Konjiki Ramen" src="https://s3-media1.fl.yelpcdn.com/bphoto/pJZhi27ckodRmT1fnF2d_g/o.jpg/></a>
+            </div>
+        </aside>
+        </main>
+    </body>
+    <footer>
+        <p>This fake website was created in 2019. Feel free to steal it.</p>
+    </footer>
+</html>
